@@ -15,6 +15,7 @@
     "@tensorflow/tfjs-backend-webgl": "^3.8.0",
     "@tensorflow/tfjs-converter": "^3.8.0",
     "@tensorflow/tfjs-core": "^3.8.0",
+    "caniuse-lite": "^1.0.30001341",
     "scatter-gl": "0.0.8"
   },
   "scripts": {
@@ -43,7 +44,8 @@
     "yalc": "~1.0.0-pre.50"
   },
   "resolutions": {
-    "is-svg": "4.3.1"
+    "is-svg": "4.3.1",
+    "**/**/fsevents": "^1.2.9"
   },
   "eslintConfig": {
     "extends": "google",
